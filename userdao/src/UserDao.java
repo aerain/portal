@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class UserDao {
+public abstract class UserDao {
 
     public User get(Long id) throws ClassNotFoundException, SQLException {
 
@@ -53,9 +53,5 @@ public class UserDao {
         return id;
     }
 
-    private Connection getConnection() throws ClassNotFoundException, SQLException {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-
-        return DriverManager.getConnection("jdbc:mysql://172.18.102.128/jeju?serverTimezone=UTC", "portal", "portaljejunu");
-    }
+    public abstract Connection getConnection() throws ClassNotFoundException, SQLException;
 }
