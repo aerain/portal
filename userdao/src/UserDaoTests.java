@@ -13,7 +13,9 @@ public class UserDaoTests {
         String name = "허윤호";
         String password = "1234";
 
-        UserDao userDao = new JejuUserDao();
+        DaoFactory daoFactory = new DaoFactory();
+        UserDao userDao = daoFactory.getUserDao();
+
         User user = userDao.get(id);
         assertThat(user.getId(), is(id));
         assertThat(user.getName(), is(name));
@@ -26,7 +28,8 @@ public class UserDaoTests {
         String name = "헐크";
         String password = "1111";
 
-        UserDao userDao = new HallaUserDao();
+        DaoFactory daoFactory = new DaoFactory();
+        UserDao userDao = daoFactory.getUserDao();
         User user = userDao.get(id);
         assertThat(user.getId(), is(id));
         assertThat(user.getName(), is(name));
@@ -41,7 +44,8 @@ public class UserDaoTests {
         user.setName(name);
         user.setPassword(password);
 
-        UserDao userDao = new JejuUserDao();
+        DaoFactory daoFactory = new DaoFactory();
+        UserDao userDao = daoFactory.getUserDao();
         userDao.add(user);
 
         Long id = userDao.add(user);
@@ -52,5 +56,5 @@ public class UserDaoTests {
         assertThat(resultUser.getName(), is(name));
         assertThat(resultUser.getPassword(), is(password));
     }
-    
+
 }
