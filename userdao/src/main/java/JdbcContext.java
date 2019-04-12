@@ -146,4 +146,38 @@ public class JdbcContext {
 
         return id;
     }
+
+    public void update(String sql, Object[] params) throws SQLException {
+        StatementStrategy statementStrategy = connection -> {
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(sql);
+            for (int i = 0; i < params.length; i++)
+                preparedStatement.setObject(i + 1, params[i]);
+            return preparedStatement;
+        };
+        jdbcContextForUpdate(statementStrategy);
+    }
+
+    public Long add(String sql, Object[] params) throws SQLException {
+        StatementStrategy statementStrategy = connection -> {
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(sql);
+            for(int i = 0; i < params.length; i++)
+                preparedStatement.setObject(i + 1, params[i]);
+            return preparedStatement;
+        };
+        return jdbcContextForAdd(statementStrategy);
+    }
+
+    User get(String sql, Object[] params) throws SQLException {
+        StatementStrategy statementStrategy = connection -> {
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            for(int i = 0; i < params.length; i++)
+                preparedStatement.setObject(i + 1, params[i]);
+            return preparedStatement;
+        };
+
+        // 템플릿 콜백 패턴
+        return jdbcContextForGet(statementStrategy);
+    }
 }
