@@ -1,5 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -84,8 +85,8 @@ public class UserDaoTests {
         user.setName(name);
         user.setPassword(password);
         Long id = userDao.add(user);
-
-        user.setId(id);
+        System.out.println(id+ " 제거");
+//        user.setId(id);
 
         userDao.delete(id);
 
