@@ -3,10 +3,12 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class DeleteStatementStrategy implements StatementStrategy {
-
+    private Long id;
+    public DeleteStatementStrategy(Long id) {
+        this.id = id;
+    }
     @Override
-    public PreparedStatement makePreparedStatement(Object object, Connection connection) throws SQLException {
-        Long id = (Long) object;
+    public PreparedStatement makePreparedStatement(Connection connection) throws SQLException {
         PreparedStatement preparedStatement = null;
         preparedStatement =
                 connection.prepareStatement("delete from userinfo where id = ?");

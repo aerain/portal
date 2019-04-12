@@ -3,6 +3,6 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public interface StatementStrategy {
-    public PreparedStatement makePreparedStatement(Object object, Connection connection) throws SQLException;
+    public PreparedStatement makePreparedStatement(Connection connection) throws SQLException;
 }
 
