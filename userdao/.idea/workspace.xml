@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c9491af-5962-4a0d-8e46-c79952f2ec44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JejuJdbcTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/AddStatementStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DeleteStatementStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/GetStatementStrategy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/JdbcContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/JdbcContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddStatementStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DeleteStatementStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GetStatementStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JdbcContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JdbcContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateStatementStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/UpdateStatementStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/UserDaoTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/UserDaoTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserDaoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserDaoTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="359">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DaoFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +106,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-477">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JejuJdbcTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <folding>
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,15 +168,16 @@
         <option value="$PROJECT_DIR$/src/main/java/ConnectionMaker.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UserDaoTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/StatementStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/AddStatementStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/DeleteStatementStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/UpdateStatementStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/GetStatementStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/JdbcContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserDaoTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JejuJdbcTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DaoFactory.java" />
       </list>
     </option>
   </component>
@@ -239,12 +260,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,7 +290,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTestsEnv" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="UserDaoTestsEnv" type="JUnit" factoryName="JUnit">
       <module name="userdao.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserDaoTests" />
@@ -278,7 +299,7 @@
       <option name="PARAMETERS" value="" />
       <envs>
         <env name="DB_CLASSNAME" value="com.mysql.cj.jdbc.Driver" />
-        <env name="DB_URL" value="jdbc:mysql://172.18.102.128/jeju?serverTimezone=UTC&amp;autoReconnection=true" />
+        <env name="DB_URL" value="jdbc:mysql://172.18.102.128/jeju?serverTimezone=UTC" />
         <env name="DB_USERNAME" value="portal" />
         <env name="DB_PASSWORD" value="portaljejunu" />
       </envs>
@@ -331,15 +352,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserDaoTestsEnv" />
       <item itemvalue="JUnit.UserDaoTests" />
       <item itemvalue="JUnit.UserDaoTests.testJejuDelete" />
-      <item itemvalue="JUnit.UserDaoTestsEnv" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDaoTestsEnv" />
-        <item itemvalue="JUnit.UserDaoTests.testJejuDelete" />
         <item itemvalue="JUnit.UserDaoTests" />
+        <item itemvalue="JUnit.UserDaoTests.testJejuDelete" />
         <item itemvalue="JUnit.UserDaoTests" />
         <item itemvalue="JUnit.UserDaoTests" />
       </list>
@@ -370,50 +390,49 @@
       <workItem from="1554455846836" duration="3092000" />
       <workItem from="1554830155078" duration="255000" />
       <workItem from="1555053091827" duration="5260000" />
-      <workItem from="1555059468957" duration="1083000" />
+      <workItem from="1555059468957" duration="3959000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 16h 38m 28s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 06m 56s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTests_testJejuDelete - 2019.04.12 at 16h 39m 24s.xml">
-      <configuration name="UserDaoTests.testJejuDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 16h 39m 40s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 07m 00s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 16h 55m 23s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 07m 03s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 16h 57m 49s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 07m 06s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 17h 39m 58s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 07m 18s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 17h 41m 44s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 07m 22s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 17h 43m 18s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 08m 06s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 17h 44m 15s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 08m 09s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 17h 48m 11s.xml">
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 08m 13s.xml">
+      <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTestsEnv - 2019.04.12 at 19h 09m 38s.xml">
       <configuration name="UserDaoTestsEnv" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26986000" />
+    <option name="totallyTimeSpent" value="29862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" weight="0.15814696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.15814696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,15 +441,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.50149703" side_tool="true" weight="0.15335463" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32997987" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3279678" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3361244" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39832535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39049825" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39034206" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32997987" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3279678" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.32997987" />
@@ -484,6 +503,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DaoFactory.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DaoFactory.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -525,16 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JdbcContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-759">
@@ -546,20 +573,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JejuJdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="225">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-477">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
