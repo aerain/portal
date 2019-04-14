@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c9491af-5962-4a0d-8e46-c79952f2ec44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JejuJdbcTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/AddStatementStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DaoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DeleteStatementStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/GetStatementStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/JdbcContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/JdbcContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/UpdateStatementStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/UserDaoTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/UserDaoTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserDaoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserDaoTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c9491af-5962-4a0d-8e46-c79952f2ec44" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -48,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="240">
               <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JdbcContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-759">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#257#258#0" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
@@ -98,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/DaoFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-477">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="105">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JejuJdbcTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="195">
               <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
                 <element signature="e#391#392#0" expanded="true" />
@@ -199,7 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +228,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,6 +377,7 @@
       <workItem from="1554830155078" duration="255000" />
       <workItem from="1555053091827" duration="5260000" />
       <workItem from="1555059468957" duration="3959000" />
+      <workItem from="1555075479191" duration="105000" />
     </task>
     <servers />
   </component>
@@ -427,12 +414,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29862000" />
+    <option name="totallyTimeSpent" value="29967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.15814696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.15974441" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -542,6 +529,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStatementStrategy.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DeleteStatementStrategy.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/GetStatementStrategy.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JdbcContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StatementStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -562,20 +570,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JdbcContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JejuJdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="195">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="e#391#392#0" expanded="true" />
@@ -584,30 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DaoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
