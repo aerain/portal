@@ -1,5 +1,4 @@
 package kr.ac.jejunu.servlet;
 
-public class HelloServlet {
-
+public class HelloServlet extends GenericServlet {
 }
