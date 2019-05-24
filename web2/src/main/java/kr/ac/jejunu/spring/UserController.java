@@ -1,18 +1,22 @@
 package kr.ac.jejunu.spring;
 
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.io.*;
 
 @Controller
 @RequestMapping("/user")
+@SessionAttributes("user")
 public class UserController {
 
-    @RequestMapping("/get")
+    @RequestMapping(value = "/get")
     public ModelAndView get(){
         User user = User.builder().id(1).name("hulk").password("hello").build();
         ModelAndView modelAndView = new ModelAndView("user");
@@ -20,14 +24,22 @@ public class UserController {
         return modelAndView;
     }
 
-    @RequestMapping("/gmod")
-    public String model(@ModelAttribute User user){
-        user.setName("ha");
-        user.setId(4);
-
-        return "user";
+    @GetMapping
+    public User sattr() {
+        User user = User.builder().id(1).name("바보").password("11111").build();
+        return user;
     }
 
+//    @RequestMapping("/gmod")
+//    public String model(@ModelAttribute User user){
+//        user.setName("ha");
+//        user.setId(4);
+//
+//        return "user";
+//    }
+
+    @RequestMapping("/user")
+    public String model(User user) { return "user"; }
 
     @RequestMapping(value="/upload", method= RequestMethod.GET)
     public String uploadPage() {
@@ -61,5 +73,18 @@ public class UserController {
         return modelAndView;
     }
 
+    @GetMapping("/session")
+    public String session(HttpSession session) {
+        User user = User.builder().id(10).name("session").password("1234123").build();
+        session.setAttribute("user", user);
+        return "redirect:/user/getSession";
+    }
 
+    @GetMapping("/getSession")
+    public ModelAndView getSession(HttpSession session) {
+        User user = (User) session.getAttribute("user");
+        ModelAndView modelAndView = new ModelAndView("user");
+        modelAndView.addObject("user", user);
+        return modelAndView;
+    }
 }
